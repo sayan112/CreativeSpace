@@ -3,8 +3,6 @@ import React from "react";
 import { cards } from "../../Data";
 import Slider from "infinite-react-carousel/lib/carousel/slider";
 const Slide = ({ children, slidesToShow, arrowsScroll, }) => {
-  cards.map((card) => {});
-  console.log(cards);
   return (
     <>
       <div className="slide">

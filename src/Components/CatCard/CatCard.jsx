@@ -2,8 +2,7 @@ import React from 'react'
  import "./CatCard.scss"
  import { Link } from 'react-router-dom'
 const Catcard = ({item}) => {
-  console.log(item.desc);
-    console.log(item.img);
+
   return (
     <Link to="/gigs?cat=design">
       <div className="catCard">
