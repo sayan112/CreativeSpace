@@ -10,8 +10,6 @@ const Slide = ({ children, slidesToShow, arrowsScroll, }) => {
           <Slider
             slidesToShow={slidesToShow}
             arrowsScroll={arrowsScroll}
-            autoplay="true"
-            autoplaySpeed={2000}
             shift={5}
           >
             {children}

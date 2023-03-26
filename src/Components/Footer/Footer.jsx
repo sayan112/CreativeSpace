@@ -46,51 +46,48 @@ const Footer = () => {
           </div>
           <div className="item">
             <h2>Community</h2>
-            <span>Graphics & Design</span>
-            <span>Digital Marketing</span>
-            <span>Writing & Translation</span>
-            <span>Video & Animation</span>
-            <span>Music & Audio</span>
+            <span>Customer Success Stories</span>
             <span>Programming & Tech</span>
-            <span>Data</span>
-            <span>Business</span>
-            <span>Lifestyle</span>
-            <span>Photography</span>
-            <span>Sitemap</span>
+            <span>Community Hub</span>
+            <span>Influencers</span>
+            <span>Forum</span>
+            <span>Event</span>
+            <span>Blog</span>
           </div>
           <div className="item">
-            <h2>More From Fiverr</h2>
-            <span>Graphics & Design</span>
-            <span>Digital Marketing</span>
-            <span>Writing & Translation</span>
-            <span>Video & Animation</span>
-            <span>Music & Audio</span>
-            <span>Programming & Tech</span>
-            <span>Data</span>
-            <span>Business</span>
-            <span>Lifestyle</span>
-            <span>Photography</span>
-            <span>Sitemap</span>
+            <h2>CreativeSpace Business</h2>
+            <span>CreativeSpace Juice & drinks</span>
+            <span>CreativeSpace Coffee & Chai</span>
+            <span>CreativeSpace Logo maker</span>
+            <span>CreativeSpace Thumbnail</span>
+            <span>Learn & Make With Us :)</span>
           </div>
         </div>
-        <div className="right">
-          <div className="social">
-            <img src={fbimg} alt="img" />
-            <img src={linkdinimg} alt="img" />
-            <img src={twitterimg} alt="img" />
-            <img src={pinterestimg} alt="img" />
-            <img src={instagramimg} alt="img" />
+        <hr />
+        <div className="bottom">
+          <div className="left">
+            <h2>Creative Space</h2>
+            <span>© CreativeSayan International Ltd.</span>
           </div>
-          <div className="link">
-            <img src={language} />
-            <span>English</span>
-          </div>
-          <div className="link">
-            <img src={coin} />
-            <span>USD</span>
-          </div>
-          <div className="link">
-            <img src={accessibility} />
+          <div className="right">
+            <div className="social">
+              <img src={fbimg} alt="img" />
+              <img src={linkdinimg} alt="img" />
+              <img src={twitterimg} alt="img" />
+              <img src={pinterestimg} alt="img" />
+              <img src={instagramimg} alt="img" />
+            </div>
+            <div className="link">
+              <img src={language} />
+              <span>English</span>
+            </div>
+            <div className="link">
+              <img src={coin} />
+              <span>USD</span>
+            </div>
+            <div className="link">
+              <img src={accessibility} />
+            </div>
           </div>
         </div>
       </div>
