@@ -1,0 +1,46 @@
+.mymessages{
+     display: flex;
+      justify-content: center;
+       .container{
+         width: 1400px;
+          padding: 50px 0px;
+           .title{
+            display: flex;
+             align-items: center;
+              justify-content: space-between;
+       
+           }
+           table{
+              .active
+                  {
+                     background-color: rgba(62, 135, 207, 0.042);
+                  }
+             width: 100%;
+              tr{
+                 height: 100px;
+                  td{
+                    padding: 10px;
+                     text-align: center;
+                     &:first-child{
+                        color: black;
+                     }
+                     &:nth-child(2),&:nth-child(3)
+                     {
+                        color: gray;
+                     }
+                         button{
+                background-color: rgb(63,149,236);
+                 width: 90px;
+                  height: 30px;
+                 color: white;
+                  font-weight: 500;
+                   border: none;
+                   cursor: pointer;
+                
+              }
+                  }
+              
+              }
+           }
+       }
+}
